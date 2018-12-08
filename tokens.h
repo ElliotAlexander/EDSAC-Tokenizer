@@ -1,0 +1,26 @@
+#ifndef TOKENS_H
+#define TOKENS_H
+
+enum tokens {
+    ALPHA = 1,
+    ALPHANUMERIC = 2,
+    LOGICALNOT = 3,
+    LOGICALAND = 4,
+    LOGICALOR = 5,
+    LOGICALNEGV = 6,
+    LOGICALEQV = 7,
+    FIXED_P_VARIABLE = 8,
+    FLOATING_P_VARIABLE = 9, 
+    MULTIPLICATION = 10,
+    MINUS = 11,
+    DIVISION = 12,
+    EXPONENTION = 13,
+    ASSIGNMENT = 14,
+    ADDITION = 15,
+    OPEN_PAREN = 16,
+    CLOSE_PAREN = 17,
+    EOR = 18,
+    OTHER = 19
+};
+
+#endif
